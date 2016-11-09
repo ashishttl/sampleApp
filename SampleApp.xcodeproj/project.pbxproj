@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		596CEAAD1DD35EEE0035B561 /* ThirdSection.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 596CEAAC1DD35EEE0035B561 /* ThirdSection.storyboard */; };
+		596CEAB01DD360570035B561 /* FourthSection.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 596CEAAE1DD360570035B561 /* FourthSection.storyboard */; };
 		596E29761DD355CE00B78747 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596E29751DD355CE00B78747 /* AppDelegate.swift */; };
 		596E29781DD355CE00B78747 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596E29771DD355CE00B78747 /* ViewController.swift */; };
 		596E297B1DD355CE00B78747 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 596E29791DD355CE00B78747 /* Main.storyboard */; };
@@ -38,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		596CEAAC1DD35EEE0035B561 /* ThirdSection.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ThirdSection.storyboard; sourceTree = "<group>"; };
+		596CEAAF1DD360570035B561 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/FourthSection.storyboard; sourceTree = "<group>"; };
 		596E29721DD355CE00B78747 /* SampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		596E29751DD355CE00B78747 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		596E29771DD355CE00B78747 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				596E29751DD355CE00B78747 /* AppDelegate.swift */,
 				596E29771DD355CE00B78747 /* ViewController.swift */,
 				596E29791DD355CE00B78747 /* Main.storyboard */,
+				596CEAAE1DD360570035B561 /* FourthSection.storyboard */,
 				596CEAAC1DD35EEE0035B561 /* ThirdSection.storyboard */,
 				596E29A61DD3589C00B78747 /* SecondSection.storyboard */,
 				596E29A31DD3588100B78747 /* FirstSection.storyboard */,
@@ -243,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				596CEAAD1DD35EEE0035B561 /* ThirdSection.storyboard in Resources */,
+				596CEAB01DD360570035B561 /* FourthSection.storyboard in Resources */,
 				596E29801DD355CE00B78747 /* LaunchScreen.storyboard in Resources */,
 				596E29A71DD3589C00B78747 /* SecondSection.storyboard in Resources */,
 				596E297D1DD355CE00B78747 /* Assets.xcassets in Resources */,
@@ -309,6 +313,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		596CEAAE1DD360570035B561 /* FourthSection.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				596CEAAF1DD360570035B561 /* Base */,
+			);
+			name = FourthSection.storyboard;
+			sourceTree = "<group>";
+		};
 		596E29791DD355CE00B78747 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
