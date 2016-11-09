@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		596CEAAD1DD35EEE0035B561 /* ThirdSection.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 596CEAAC1DD35EEE0035B561 /* ThirdSection.storyboard */; };
 		596E29761DD355CE00B78747 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596E29751DD355CE00B78747 /* AppDelegate.swift */; };
 		596E29781DD355CE00B78747 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596E29771DD355CE00B78747 /* ViewController.swift */; };
 		596E297B1DD355CE00B78747 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 596E29791DD355CE00B78747 /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		596CEAAC1DD35EEE0035B561 /* ThirdSection.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ThirdSection.storyboard; sourceTree = "<group>"; };
 		596E29721DD355CE00B78747 /* SampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		596E29751DD355CE00B78747 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		596E29771DD355CE00B78747 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				596E29751DD355CE00B78747 /* AppDelegate.swift */,
 				596E29771DD355CE00B78747 /* ViewController.swift */,
 				596E29791DD355CE00B78747 /* Main.storyboard */,
+				596CEAAC1DD35EEE0035B561 /* ThirdSection.storyboard */,
 				596E29A61DD3589C00B78747 /* SecondSection.storyboard */,
 				596E29A31DD3588100B78747 /* FirstSection.storyboard */,
 				596E297C1DD355CE00B78747 /* Assets.xcassets */,
@@ -239,6 +242,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				596CEAAD1DD35EEE0035B561 /* ThirdSection.storyboard in Resources */,
 				596E29801DD355CE00B78747 /* LaunchScreen.storyboard in Resources */,
 				596E29A71DD3589C00B78747 /* SecondSection.storyboard in Resources */,
 				596E297D1DD355CE00B78747 /* Assets.xcassets in Resources */,
@@ -530,6 +534,7 @@
 				596E299C1DD355CE00B78747 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		596E299D1DD355CE00B78747 /* Build configuration list for PBXNativeTarget "SampleAppTests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +543,7 @@
 				596E299F1DD355CE00B78747 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		596E29A01DD355CE00B78747 /* Build configuration list for PBXNativeTarget "SampleAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -546,6 +552,7 @@
 				596E29A21DD355CE00B78747 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
